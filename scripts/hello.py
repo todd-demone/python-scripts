@@ -31,6 +31,5 @@ def main():
     print(say_hello(args.name))
 
 
-# --------------------------------------------------
 if __name__ == '__main__':
     main()
