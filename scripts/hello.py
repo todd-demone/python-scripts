@@ -21,7 +21,7 @@ def say_hello(name='World'):
 
     if not isinstance(name, str):
         raise TypeError("Name must be a string")
-    return 'Hello, ' + name + '!'
+    return f'Hello, {name}!'
 
 
 def main():
