@@ -5,7 +5,6 @@ import pytest
 from hello import say_hello
 
 
-# --------------------------------------------------
 def test_say_hello_no_arg():
     """tests with no arguments"""
 
@@ -13,7 +12,6 @@ def test_say_hello_no_arg():
     assert result == "Hello, World!"
 
 
-# --------------------------------------------------
 def test_say_hello_with_arg():
     """tests with optional --name argument"""
 
@@ -21,7 +19,6 @@ def test_say_hello_with_arg():
     assert result == "Hello, Bob!"
 
 
-# --------------------------------------------------
 def test_say_hello_with_non_string_arg():
     """tests with non-string argument"""
 

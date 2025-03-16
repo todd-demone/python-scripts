@@ -7,7 +7,6 @@ Purpose:    say hello
 import argparse
 
 
-# --------------------------------------------------
 def get_args():
     """Get the command line arguments"""
 
@@ -17,7 +16,6 @@ def get_args():
     return parser.parse_args()
 
 
-# --------------------------------------------------
 def say_hello(name='World'):
     """Create a greeting that may include a person's name"""
 
@@ -26,7 +24,6 @@ def say_hello(name='World'):
     return 'Hello, ' + name + '!'
 
 
-# --------------------------------------------------
 def main():
     """Entry point of the script"""
 
